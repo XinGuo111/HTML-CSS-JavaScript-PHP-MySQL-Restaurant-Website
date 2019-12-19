@@ -1,0 +1,137 @@
+/* 
+    Document   : style.css
+    Created on : 2-Nov-2013, 3:10:07 PM
+    Author     : Matt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+h1, h2, h3, h4, h5, h6,
+body, div, p, img{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Muli', sans-serif;
+}
+
+#wrapper{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #FFFFFF;
+}
+header{
+    margin: 0px;
+    width: auto;
+    height: 200px;
+    border-bottom: 1px solid #FFFFFF;
+}
+header img{
+    float:left;
+}
+header #title{
+    float: left;
+    width:445px;
+    margin-right: 5px;
+}
+header h1{
+    margin: 5px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+header h2{
+    text-align: right;
+    float: right;
+}
+nav{
+    height: 60px;
+    border-bottom: 1px solid #FFFFFF;
+}
+nav #menuItems{
+    float:right;
+    margin-right: 20px;
+}
+nav li{
+    display: inline;
+    height:60px;
+    margin-left: 50px;
+    text-align:right;
+    font-size: 16pt;
+}
+nav a, a:visited{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+aside{
+    width: 250px;
+    margin: 0px; 
+    float: left;
+    border-right: 1px solid #FFFFFF;
+}
+aside h2, h3{
+    text-align:center;
+    padding: 5px;
+}
+aside img{
+    margin-left:10px;
+    margin-right:10px;
+    border: 1px solid #FFFFFF;
+}
+aside p{
+    margin: 10px;
+    text-align: justify;
+}
+aside hr {
+    margin: 10px;
+}
+.main{
+    margin-left: -1px;
+    width:629px;
+    padding: 10px;
+    float: left;
+    border-left: 1px solid #FFFFFF;
+}
+.main h1{
+}
+#content{
+    border-bottom: 1px solid #FFFFFF;
+}
+.content_pic{
+    float:right;
+    border: 1px solid #FFFFFF;
+    margin-left: 10px;
+}
+
+#content p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    text-align: justify;
+    font-size: 11pt;
+    
+}
+
+footer p{
+    text-align:center;
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+table td{
+    padding:5px;
+}
